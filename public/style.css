@@ -1,0 +1,12 @@
+body {
+    background-image: url("papers.jpg");
+    background-repeat: no-repeat;
+    background-position: top-right;
+    margin-right: 200px;
+    font-family: "Lucida Console";
+}
+
+#send {
+	font-family: "Times New Roman";
+}
+

@@ -1,0 +1,15 @@
+doctype
+html
+	head
+		title= "Cupcake Chat"
+		script(src='/chat.js')
+		script(src='/socket.io/socket.io.js')
+		link(rel='stylesheet', href='/style.css', type='text/css')
+	body
+		#content(style='width: 500px; height: 300px; margin: 0 0 20px 0; border: dotted 4px #999; border-color: #66FF66; overflow-y: scroll;')
+		.controls
+			| Name:
+			input#name(style='width:180px; height:20px;')
+			br
+			input#field(style='width:350px; height:20px; margin:5px;')
+			input#send(type='button', value='Send')
